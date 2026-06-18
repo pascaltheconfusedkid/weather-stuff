@@ -10,7 +10,7 @@ import requests
 class WeatherDashboard: 
     def __init__(self): 
         #the line that u gotta put ur API key in, im gonna use mine for now
-        self.api_key = "..."
+        self.api_key = "API_KEY"
         self.base_url = "http://api.openweathermap.org/data/2.5/"
         self.forecast_url = "http://api.openweathermap.org/data/2.5/forecast"
 
